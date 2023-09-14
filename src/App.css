@@ -1,0 +1,98 @@
+.principal {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex-wrap: wrap;
+    background-color: #05292E;
+}
+div.second {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    justify-items: center;
+    gap: 1rem; 
+    background-color: #05292E;
+    margin-top: 4rem;
+}
+.resident {
+    width: 100%;
+    max-width: 300px;
+    background-color: #072226;
+    color: white;
+    border-radius: 1em;
+    overflow: hidden;
+    transition: transform 100ms ease;
+}
+.resident:hover {
+    transform:  scale(1.03);
+    cursor: pointer;
+}
+.resident__header {
+    position: relative;
+}
+.resident__status {
+    position: absolute;
+    top: 1em;
+    background-color: #072226;
+    width: 40%;
+    padding: 0.3em 0.7em;
+    border-radius: 0 0.5em 0.5em 0;
+    display: flex;
+    gap: 0.7em;
+    align-items: center;
+}
+.resident__status__circle {
+    display: block;
+    width: 14px;
+    aspect-ratio: 1;
+    background-color: #aaa;
+    border-radius: 50%;
+}
+.Alive {
+    background-color: #00d547;
+}
+.Dead {
+    background-color: red;
+}
+.resident__body {
+    padding: 1.5em 2em 1.4em;
+}
+.resident__name {
+    text-align: center;
+    margin-bottom: 0.5em;
+    font-weight: 700;
+    color: rgb(0, 213, 71);
+}
+.resident__separator {
+    margin-bottom: 0.5em;
+    border-color: #aaa3;
+}
+.resident__list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-left: 2.2rem;
+}
+.resident__item {
+    display: flex;
+    flex-direction: column;
+}
+.resident__label1, .resident__label2, .resident__label3 {
+    display: flex;
+    font-size: 0.8em;
+    padding-left: 1em;
+    color: #aaa;
+    
+}
+
+.resident__value1, .resident__value2, .resident__value3 {
+    font-weight: 500;
+    display: flex;
+    margin-left: -4.5rem;
+}
+.resident__label1, .resident__label2 ,.resident__label3{
+    display: flex;
+    margin-left: -4.5rem;
+    
+}

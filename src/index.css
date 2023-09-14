@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+/* ---RESET ---*/
+* {
+    box-sizing: border-box;
+}
+html {
+    font-family: 'lato', sans-serif;
+}
+body {
+    margin: 0;
+}
+#cuadrado{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #072226;
+    width: 500px;
+    max-width: 33rem;
+    margin: auto;
+    border-radius: 1rem;
+    box-shadow: 3px 4px 2px;
+    gap: 1px;
+}
+ul, form {
+    list-style: none;
+    padding-left: 0;
+    text-align: center; 
+}
+ul{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 5rem; 
+}
+h1{
+    display: flex;
+    color: #ffff;
+    font-size: 100px;
+    text-align: center;
+    background-image: url('https://blog.warnertv.es/wp-content/uploads/2021/05/06_21_TNT_RICK_MORTY_T5_NOTA_blog.jpg');
+    height: 450px;
+    background-position: 1.2px;
+    margin-top: -1px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h2{
+    text-align: center;
+    color: #89cc22;
+}
+input {
+    outline: none;
+    font-family: inherit;
+    border-radius: 3rem 0.5rem 0.5rem 3rem;
+    height: 2.1rem;
+    width: 14rem;
+}
+button {
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 0.5rem 7rem 6rem 0.5rem;
+    height: 2.1rem;
+    width: 4rem;
+    color: #ffff;
+    background-color: #71a821;
+    
+}
+img {
+    width: 100%;
+    display: block;
+}
